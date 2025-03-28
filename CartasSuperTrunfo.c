@@ -1,5 +1,30 @@
 #include <stdio.h>
 
+int main() {
+char cidade[50], cod[10], estado[50];
+int pupulacao, pontos;
+float area, PIB;
+
+printf("Digite o nome da cidade: \n");
+scanf("%s", cidade);
+
+printf("Digite o codigo da cidade: \n");
+scanf("%s", cod);
+
+printf("Digite o estado da cidade: \n");
+scanf("%s", estado);
+
+printf("Digite a area da cidade: \n");
+scanf("%f", &area);
+
+printf("Digite a populacao da cidade: \n");
+scanf("%d", &pupulacao);
+
+orintf("Digite o PIB da cidade: \n");
+scanf("%f", &PIB);
+
+printff("Digite os pontos turisticos da cidade: \n");
+scanf("%d", &pontos);
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
